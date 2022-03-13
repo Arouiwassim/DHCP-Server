@@ -1,0 +1,29 @@
+Installation :
+**************************
+    1 -  Pour installer le serveur sur votre machine, il suffit de télécharger l'archive du fichier DHCP.1 et de
+
+     l'extraire vers un répertoire de votre choix. 
+
+    2- Soyez sûrs d'avoir sur votre machine un interpréteur python3 avec un module Scapy intégré dans sa version la plus récente. 
+      
+     Sinon Toujours est-il possible de les installer.  
+
+Exécution :
+**************************
+
+1- Pour lancer le serveur, se placer dans le répertoire dans lequel le dossier est dézippé. 
+   Assurez vous d'avoir les droits administrateur sur le répertoire. Ouvrez ce répertoire en terminal
+   et entrez la commande suivante: 
+
+          $  sudo python3 server.py 
+
+2- Des configuration par défaut du serveur sont incluse lors de l'installation. En revanche, il est conseillé de 
+ 
+ reconfigurer le serveur selon votre réseau local. Pour cela, dans le même répertoire entrez la commande : 
+
+
+         $ sudo python3 cli.py 
+
+Cette commande lance l'interface en ligne de commande. Suivez les instruction
+
+affichées pour bien configurer le serveur. Sur la mêm ligne de commande vous pouvez également vérifier l'état du serveur  
